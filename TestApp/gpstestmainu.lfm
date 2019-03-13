@@ -1,0 +1,43 @@
+object Form1: TForm1
+  Left = 417
+  Height = 633
+  Top = 150
+  Width = 842
+  Caption = 'Form1'
+  ClientHeight = 633
+  ClientWidth = 842
+  LCLVersion = '1.6.0.4'
+  object Button1: TButton
+    Left = 50
+    Height = 25
+    Top = 33
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 154
+    Height = 25
+    Top = 32
+    Width = 190
+    Caption = 'SizeOf gps_data_t'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 16
+    Height = 538
+    Top = 80
+    Width = 816
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 2
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    left = 433
+    top = 23
+  end
+end
